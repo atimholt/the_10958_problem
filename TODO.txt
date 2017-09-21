@@ -1,0 +1,4 @@
+TODO:
+=====
+
+* pre-compile exprtk.hpp (SO SLOOOWW!)
