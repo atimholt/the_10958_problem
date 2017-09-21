@@ -16,7 +16,7 @@ def options(opt):
 
 def configure(conf):
     conf.env.MSVC_TARGETS = ['x64']
-    conf.env.CXXFLAGS = ['/nologo', '/EHsc', '/MD']
+    conf.env.CXXFLAGS = ['/nologo', '/EHsc', '/MD', '/bigobj']
     conf.load('compiler_cxx msvc')
 
 def post(ctx):
