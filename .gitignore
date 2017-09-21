@@ -1,0 +1,12 @@
+bin/
+doxys_docs/
+
+.lock-waf*
+tags*
+
+# Visual Studio stuff (using its debugger)
+.vs/
+[Dd]ebug/
+*.sdf
+*.sln
+*.vcxproj*
